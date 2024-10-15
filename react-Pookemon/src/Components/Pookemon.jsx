@@ -10,7 +10,7 @@ function Pookemon() {
     const [search, setSearch] = useState("");
     console.log(pookemon);
     
-    const API = "https://pokeapi.co/api/v2/pokemon?limit=30";
+    const API = "https://pokeapi.co/api/v2/pokemon?limit=50";
 
     const fetchPookemon = async () => {
         try {
@@ -70,7 +70,7 @@ function Pookemon() {
         <div>
             <section className="container">
                 <header>
-                    <h1> Lets Catch Pokémon</h1>
+                    <h1> Let Catch Pokémon</h1>
                 </header>
                 <div className="pokemon-search">
                     <input
